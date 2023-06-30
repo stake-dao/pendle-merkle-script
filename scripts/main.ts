@@ -26,6 +26,7 @@ async function main() {
         }
 
         const accountShare = votingDatas[pool][ACCOUNT].valueAt(wTime);
+        if (accountShare.eq(0)) continue;
         const rewardForAccount = rewardAmount.mul(accountShare).div(totalVotingPower); 
         
         console.log(`pool: ${pool}, wtime: ${wTime}, rewardForAccount: ${rewardForAccount.toString()}`);
