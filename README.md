@@ -18,3 +18,11 @@ The POC can be found in `scripts/main.ts`, where it queries the rewards for `ACC
 ```
 yarn hardhat run scripts/main.ts 
 ```
+
+
+## Some other notes
+
+In case you would like to gather the datas for some old reward batch or multiple reward batches at a time. Here's how to proceed:
+- Step 1: Look for the commit hash containing the reward data for your desired batch
+- Step 2: Get the json file containing the swap data `scripts/data/swap-result.json` and replace it to the main branch's according path. In case you want to run multiple batches, you can merge the json files into one (respecting json convention) and it should still work.
+- Step 3: Run the script
