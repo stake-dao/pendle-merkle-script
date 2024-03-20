@@ -3,7 +3,7 @@ import { PoolsData, UserVeBalanceList } from './types';
 import { BigNumber as BN, BigNumberish } from 'ethers';
 import { getWeekEndTimestamp, getWeekStartTimestamp } from './misc';
 
-const URL = 'https://api.thegraph.com/subgraphs/name/pendle-finance/core-mainnet-may-11';
+const URL = 'https://api.thegraph.com/subgraphs/name/pendle-finance/core-mainnet-23-dec-18';
 const vePendle = '0x4f30a9d41b80ecc5b94306ab4364951ae3170210';
 const _104_WEEKS = 104 * 7 * 24 * 60 * 60;
 
