@@ -8,11 +8,10 @@ const vePendle = '0x4f30a9d41b80ecc5b94306ab4364951ae3170210';
 const _104_WEEKS = 104 * 7 * 24 * 60 * 60;
 
 const votingPositionQuery = gql`
-    query VotePositionQuery($to: Int!, $skipping: Int!) {
+    query VotePositionQuery($timestampTo: Int!, $synchingIndexFrom: Int!) {
         votingEvents(
             first: 1000
-            skip: $skipping
-            where: { timestamp_lt: $to }
+            where: { timestamp_lt: $timestampTo, syncingIndex_gte: $synchingIndexFrom }
             orderBy: syncingIndex
             orderDirection: asc
         ) {
@@ -21,16 +20,16 @@ const votingPositionQuery = gql`
             slope
             timestamp
             pool
+            syncingIndex
         }
     }
 `;
 
 const vePendlePositionQuery = gql`
-    query LockPositionQuery($to: Int!, $skipping: Int!) {
+    query LockPositionQuery($timestampTo: Int!, $synchingIndexFrom: Int!) {
         lockingEvents(
             first: 1000
-            skip: $skipping
-            where: { timestamp_lt: $to, action: "LOCK" }
+            where: { timestamp_lt: $timestampTo, action: "LOCK", syncingIndex_gte: $synchingIndexFrom }
             orderBy: syncingIndex
             orderDirection: asc
         ) {
@@ -38,11 +37,12 @@ const vePendlePositionQuery = gql`
             amount
             timestamp
             expiry
+            syncingIndex
         }
     }
 `;
 
-async function queryVotePositions(to: number): Promise<PoolsData> {
+async function queryVotePositions(timestampTo: number): Promise<PoolsData> {
     type VotePositionSubgraphData = {
         user: string;
         bias: BN;
@@ -53,9 +53,8 @@ async function queryVotePositions(to: number): Promise<PoolsData> {
 
     let datas: VotePositionSubgraphData[] = [];
 
-    for (let skipping = 0; ; skipping += 1000) {
-        const rawDatas: any = await request(URL, votingPositionQuery, { to, skipping });
-        if (rawDatas.votingEvents.length === 0) break;
+    for (let synchingIndexFrom = 0; ; ) {
+        const rawDatas: any = await request(URL, votingPositionQuery, { timestampTo, synchingIndexFrom });
         for (const raw of rawDatas.votingEvents) {
             datas.push({
                 pool: raw.pool,
@@ -65,6 +64,9 @@ async function queryVotePositions(to: number): Promise<PoolsData> {
                 timestamp: parseInt(raw.timestamp),
             });
         }
+
+        if (rawDatas.votingEvents.length < 1000) break;
+        synchingIndexFrom = parseInt(rawDatas.votingEvents[999].syncingIndex);
     }
 
     const poolsData: PoolsData = {};
@@ -77,7 +79,7 @@ async function queryVotePositions(to: number): Promise<PoolsData> {
     return poolsData;
 }
 
-async function queryLockPositions(to: number): Promise<PoolsData> {
+async function queryLockPositions(timestampTo: number): Promise<PoolsData> {
     type LockPositionSubgraphData = {
         user: string;
         amount: BN;
@@ -87,9 +89,8 @@ async function queryLockPositions(to: number): Promise<PoolsData> {
 
     let datas: LockPositionSubgraphData[] = [];
 
-    for (let skipping = 0; ; skipping += 1000) {
-        const rawDatas: any = await request(URL, vePendlePositionQuery, { to, skipping });
-        if (rawDatas.lockingEvents.length === 0) break;
+    for (let synchingIndexFrom = 0; ; ) {
+        const rawDatas: any = await request(URL, vePendlePositionQuery, { timestampTo, synchingIndexFrom });
         for (const raw of rawDatas.lockingEvents) {
             datas.push({
                 user: raw.user,
@@ -98,6 +99,8 @@ async function queryLockPositions(to: number): Promise<PoolsData> {
                 timestamp: parseInt(raw.timestamp),
             });
         }
+        if (rawDatas.lockingEvents.length < 1000) break;
+        synchingIndexFrom = parseInt(rawDatas.lockingEvents[999].syncingIndex);
     }
 
     const poolsData: PoolsData = {};

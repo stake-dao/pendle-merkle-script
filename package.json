@@ -11,19 +11,19 @@
     "@nomiclabs/hardhat-waffle": "^2.0.1",
     "@typechain/ethers-v5": "^9.0.0",
     "@typechain/hardhat": "^4.0.0",
-    "solc": "^0.8.19",
-    "solhint": "^3.4.1",
-    "typescript": "^4.9.5",
-    "tslib": "^2.5.0",
-    "tsdx": "^0.14.1",
-    "ts-node": "^10.9.1",
-    "typechain": "^8.1.1",
-    "graphql-request": "^5.2.0",
     "eslint": "^8.36.0",
     "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-mocha": "^10.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-unused-imports": "^2.0.0",
-    "hardhat": "^2.14.0"
+    "graphql-request": "^5.2.0",
+    "hardhat": "^2.14.0",
+    "solc": "^0.8.19",
+    "solhint": "^3.4.1",
+    "ts-node": "^10.9.1",
+    "tsdx": "^0.14.1",
+    "tslib": "^2.5.0",
+    "typechain": "^8.1.1",
+    "typescript": "^4.9.5"
   }
 }
