@@ -42,8 +42,14 @@ export class UserVeBalanceList {
 
     valueAt(time: number): BN {
         assert(this.index < this.snapshots.length, '[UserVeBalanceList] index out of bound');
-        if (this.snapshots[this.index].timestamp > time) {
+        if (this.snapshots.length === 0) {
             return BN.from(0);
+        }
+        if (this.snapshots[0].timestamp > time) {
+            return BN.from(0);
+        }
+        if (this.snapshots[this.index].timestamp > time) {
+            this.index = 0;
         }
         while (this.index + 1 < this.snapshots.length && this.snapshots[this.index + 1].timestamp <= time) {
             this.index++;
@@ -56,4 +62,5 @@ export class UserVeBalanceList {
     }
 }
 
+// PoolData[pool][user] = UserVeBalanceList
 export type PoolsData = Record<string, Record<string, UserVeBalanceList>>;
