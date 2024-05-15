@@ -1,0 +1,87 @@
+{
+  "resultsByPeriod": {
+    "1711584000": {
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "471170874405647625"
+      },
+      "0xbbd395d4820da5c89a3bca4fa28af97254a0fcbe": {
+        "name": "Silo - crvUSD Pool - 27JUN 2024",
+        "reward": "18723709161149668"
+      },
+      "0xd7e0809998693fd87e81d51de1619fd0ee658031": {
+        "name": "Zircuit - ezETH (Zircuit) Pool  - 27JUN 2024",
+        "reward": "2033966994272394118"
+      },
+      "0xde715330043799d7a80249660d1e6b61eb3713b3": {
+        "name": "Renzo - ezETH Pool - 25APR 2024",
+        "reward": "1539330882638519942"
+      }
+    },
+    "1712188800": {
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "276885413076654390"
+      },
+      "0x445d25a1c31445fb29e65d12da8e0eea38174176": {
+        "name": "Zircuit - rsETH (Zircuit) Pool - 27JUN 2024",
+        "reward": "430503043101488087"
+      },
+      "0xbbd395d4820da5c89a3bca4fa28af97254a0fcbe": {
+        "name": "Silo - crvUSD Pool - 27JUN 2024",
+        "reward": "43819617937057213"
+      },
+      "0xd7e0809998693fd87e81d51de1619fd0ee658031": {
+        "name": "Zircuit - ezETH (Zircuit) Pool  - 27JUN 2024",
+        "reward": "1453072892302576991"
+      },
+      "0xe26d7f9409581f606242300fbfe63f56789f2169": {
+        "name": "Zircuit - eETH (Zircuit) Pool - 27JUN 2024",
+        "reward": "781317545264478772"
+      }
+    },
+    "1712793600": {
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "356417752572719741"
+      },
+      "0x445d25a1c31445fb29e65d12da8e0eea38174176": {
+        "name": "Zircuit - rsETH (Zircuit) Pool - 27JUN 2024",
+        "reward": "413601700442714550"
+      },
+      "0xbbd395d4820da5c89a3bca4fa28af97254a0fcbe": {
+        "name": "Silo - crvUSD Pool - 27JUN 2024",
+        "reward": "15826244696826560"
+      },
+      "0xd7e0809998693fd87e81d51de1619fd0ee658031": {
+        "name": "Zircuit - ezETH (Zircuit) Pool  - 27JUN 2024",
+        "reward": "1852572742447869857"
+      },
+      "0xe26d7f9409581f606242300fbfe63f56789f2169": {
+        "name": "Zircuit - eETH (Zircuit) Pool - 27JUN 2024",
+        "reward": "2532717813813808709"
+      }
+    },
+    "1713398400": {
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "304305748046720704"
+      },
+      "0x90c98ab215498b72abfec04c651e2e496ba364c0": {
+        "name": "Zircuit - USDe (Zircuit) Pool - 27JUN 2024",
+        "reward": "3738195887070249179"
+      },
+      "0xde715330043799d7a80249660d1e6b61eb3713b3": {
+        "name": "Renzo - ezETH Pool - 25APR 2024",
+        "reward": "435820161568164082"
+      },
+      "0x7dc07c575a0c512422dcab82ce9ed74db58be30c": {
+        "name": "Ethena - USDe Pool - 25JUL 2024",
+        "reward": "2194655403313339375"
+      }
+    }
+  },
+  "totalRewards": "18892904426132379563",
+  "totalVoterRewards": "17484124638030637103",
+  "totalNativeRewards": "1408779788101742460"
+}
