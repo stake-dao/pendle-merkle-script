@@ -77,8 +77,17 @@ async function main() {
         totalVoterRewards: totalVoterRewards.toString(),
         totalNativeRewards: totalNativeRewards.toString()
     };
-    const currentDate = format(new Date(), 'MM-yyyy');
-    const dirPath = path.join(__dirname, `./data/sdPendle-rewards/${currentDate}.json`);
+
+    const dates = Object.keys(resultsByPeriod).map(timestamp => new Date(parseInt(timestamp) * 1000).toISOString().split('T')[0]);
+
+    const startDate = dates[0].split('-').reverse().join('-').substring(0, 5);
+    const endDate = dates[dates.length - 1].split('-').reverse().join('-').substring(0, 5);
+    
+    const currentYear = format(new Date(), 'yyyy');
+
+    const fileName = `${startDate}_${endDate}-${currentYear}`.replace(/-/g, '-');
+
+    const dirPath = path.join(__dirname, `./data/sdPendle-rewards/${fileName}.json`);
     const dir = path.dirname(dirPath);
     if (!fs.existsSync(dir)) {
         fs.mkdirSync(dir, { recursive: true });
