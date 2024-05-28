@@ -4,7 +4,8 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "*/30 * * * *" # Runs every 30 minutes
-env: GIT_ACCESS_TOKEN = ${{ secrets.GIT_ACCESS_TOKEN }}
+env:
+  GIT_ACCESS_TOKEN: ${{ secrets.GIT_ACCESS_TOKEN }}
 
 jobs:
   sync_and_run_script:
