@@ -1,4 +1,4 @@
-name: Sync Fork with Parent Repository
+name: Sync Fork and Generate sdPendle Locker Monthly rewards repartition
 
 on:
   workflow_dispatch:
@@ -6,9 +6,10 @@ on:
     - cron: "*/30 * * * *" # Runs every 30 minutes
 
 jobs:
-  sync:
+  sync_and_run_script:
     runs-on: ubuntu-latest
     steps:
+      # Steps to sync the fork
       - name: Checkout the repository
         uses: actions/checkout@v2
         with:
@@ -33,3 +34,26 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           branch: main
+
+      # Steps to run the script after syncing
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20.5.1"
+
+      - name: Install node dependencies
+        run: yarn install
+
+      - name: Run sdPendle script
+        run: yarn hardhat run scripts/sdPendle.ts
+        shell: bash
+
+      - name: Commit and push changes to bribes repo
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Stake DAO Automation"
+          git add .
+          git commit -m "Generating sdPendle Locker Monthly rewards repartition"
+          git push origin main
+        shell: bash
+        if: ${{ success() }}
