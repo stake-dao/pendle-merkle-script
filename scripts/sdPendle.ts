@@ -38,7 +38,7 @@ async function main() {
             }
         }
 
-        if (!votingDatas[pool][ACCOUNT]) continue;
+        if (!votingDatas[pool] || !votingDatas[pool][ACCOUNT]) continue;
 
         const rewardAmount = swapDatas[id];
         let totalVotingPower = BigNumber.from(0);

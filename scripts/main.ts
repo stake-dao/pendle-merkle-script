@@ -3,7 +3,7 @@ import { normalizeRawRC, queryAllPositions, RC } from './helper';
 import rawSwapDatas from './data/swap-result.json';
 
 const WTIME_INF = 2 ** 31 - 1;
-const ACCOUNT = '0x64627901dadb46ed7f275fd4fc87d086cff1e6e3'.toLowerCase();
+const ACCOUNT = '0xD8fa8dC5aDeC503AcC5e026a98F32Ca5C1Fa289A'.toLowerCase();
 async function main() {
     const votingDatas = await queryAllPositions(WTIME_INF);
     const swapDatas: RC = normalizeRawRC(rawSwapDatas);
