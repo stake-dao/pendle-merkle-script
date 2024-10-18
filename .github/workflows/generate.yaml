@@ -1,6 +1,8 @@
 name: Sync Fork and Generate sdPendle Locker Monthly rewards repartition
 
 on:
+  schedule:
+    - cron: '0 12 * * 5' # Each friday at noon
   workflow_dispatch:
 
 env:
