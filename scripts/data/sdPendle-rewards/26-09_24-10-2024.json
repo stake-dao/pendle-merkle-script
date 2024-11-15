@@ -1,0 +1,105 @@
+{
+  "resultsByPeriod": {
+    "1727308800": {
+      "0x36d3ca43ae7939645c306e26603ce16e39a89192": {
+        "name": "",
+        "reward": "377761802798218582"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "1052930365794663759"
+      },
+      "0x676106576004ef54b4bd39ce8d2b34069f86eb8f": {
+        "name": "",
+        "reward": "79452070403023014"
+      },
+      "0xa0ab94debb3cc9a7ea77f3205ba4ab23276fed08": {
+        "name": "Ethena - sUSDe - 26DEC 2024",
+        "reward": "532486473046213334"
+      }
+    },
+    "1727913600": {
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "357563133178762196"
+      },
+      "0x7e0209ab6fa3c7730603b68799bbe9327dab7e88": {
+        "name": "",
+        "reward": "447641766616509604"
+      },
+      "0xcdd26eb5eb2ce0f203a84553853667ae69ca29ce": {
+        "name": "",
+        "reward": "2639344531556483613"
+      },
+      "0xd8f12bcde578c653014f27379a6114f67f0e445f": {
+        "name": "Renzo - ezETH - 26DEC 2024",
+        "reward": "46708974185558409"
+      }
+    },
+    "1728518400": {
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "370410955072737911"
+      },
+      "0x676106576004ef54b4bd39ce8d2b34069f86eb8f": {
+        "name": "",
+        "reward": "146049836548224727"
+      },
+      "0x7e0209ab6fa3c7730603b68799bbe9327dab7e88": {
+        "name": "",
+        "reward": "1094202963602447983"
+      },
+      "0xa0ab94debb3cc9a7ea77f3205ba4ab23276fed08": {
+        "name": "Ethena - sUSDe - 26DEC 2024",
+        "reward": "533409723024176796"
+      },
+      "0xcdd26eb5eb2ce0f203a84553853667ae69ca29ce": {
+        "name": "",
+        "reward": "3205958312494894614"
+      }
+    },
+    "1729123200": {
+      "0x487e1cef7805cf0225dec3dd0f3044fe0fb70611": {
+        "name": "",
+        "reward": "1457435587827251456"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "466263805841193273"
+      },
+      "0x7e0209ab6fa3c7730603b68799bbe9327dab7e88": {
+        "name": "",
+        "reward": "813484289694084559"
+      },
+      "0xa0ab94debb3cc9a7ea77f3205ba4ab23276fed08": {
+        "name": "Ethena - sUSDe - 26DEC 2024",
+        "reward": "164417844833934992"
+      },
+      "0xcdd26eb5eb2ce0f203a84553853667ae69ca29ce": {
+        "name": "",
+        "reward": "2107352150806337675"
+      }
+    },
+    "1729728000": {
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "4819094019651424495"
+      },
+      "0x7e0209ab6fa3c7730603b68799bbe9327dab7e88": {
+        "name": "",
+        "reward": "267106983578751458"
+      },
+      "0xafdc922d0059147486cc1f0f32e3a2354b0d35cc": {
+        "name": "",
+        "reward": "5914143773342936"
+      },
+      "0xcdd26eb5eb2ce0f203a84553853667ae69ca29ce": {
+        "name": "",
+        "reward": "4507145322371726193"
+      }
+    }
+  },
+  "totalRewards": "25492135056699961579",
+  "totalVoterRewards": "18425872777161179945",
+  "totalNativeRewards": "7066262279538781634"
+}
