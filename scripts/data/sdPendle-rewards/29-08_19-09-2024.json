@@ -1,0 +1,107 @@
+{
+  "resultsByPeriod": {
+    "1724889600": {
+      "0x40789e8536c668c6a249af61c81b9dfac3eb8f32": {
+        "name": "",
+        "reward": "3467507233878612"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "416472538148708191"
+      },
+      "0x905a5a4792a0c27a2adb2777f98c577d320079ef": {
+        "name": "Ether.Fi (Karak) - weETHk - 26SEPT 2024",
+        "reward": "80432235165589101"
+      },
+      "0xa0ab94debb3cc9a7ea77f3205ba4ab23276fed08": {
+        "name": "Ethena - sUSDe - 26DEC 2024",
+        "reward": "287085011049814529"
+      },
+      "0xa54fc268101c8b97de19ef3141d34751a11996b2": {
+        "name": "",
+        "reward": "1167839975628787157"
+      },
+      "0xbbf399db59a845066aafce9ae55e68c505fa97b7": {
+        "name": "",
+        "reward": "355089528470847506"
+      },
+      "0xc8edd52d0502aa8b4d5c77361d4b3d300e8fc81c": {
+        "name": "Ether.fi - eETH - 26SEPT 2024",
+        "reward": "129501764510985297"
+      },
+      "0xd8f12bcde578c653014f27379a6114f67f0e445f": {
+        "name": "Renzo - ezETH - 26DEC 2024",
+        "reward": "84592201702045508"
+      }
+    },
+    "1725494400": {
+      "0x403829bce022844f66cdb2911d2260526d4eb843": {
+        "name": "Ethena - ENA - 31OCT 2024",
+        "reward": "160771174701010551"
+      },
+      "0x40789e8536c668c6a249af61c81b9dfac3eb8f32": {
+        "name": "",
+        "reward": "692994240942763"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "255589883853938141"
+      },
+      "0xa54fc268101c8b97de19ef3141d34751a11996b2": {
+        "name": "",
+        "reward": "137789365721943842"
+      },
+      "0x4604fc1c52cbfc38c4e6dfd2cd2a9bf5b84f65cb": {
+        "name": "Mantle - MNT - 3OCT 2024",
+        "reward": "84750575764241808"
+      }
+    },
+    "1726099200": {
+      "0x36d3ca43ae7939645c306e26603ce16e39a89192": {
+        "name": "",
+        "reward": "90916250978464132"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "176004488937312219"
+      },
+      "0xa0ab94debb3cc9a7ea77f3205ba4ab23276fed08": {
+        "name": "Ethena - sUSDe - 26DEC 2024",
+        "reward": "81637302108851300"
+      },
+      "0xc374f7ec85f8c7de3207a10bb1978ba104bda3b2": {
+        "name": "",
+        "reward": "23695184740300774"
+      },
+      "0xc8edd52d0502aa8b4d5c77361d4b3d300e8fc81c": {
+        "name": "Ether.fi - eETH - 26SEPT 2024",
+        "reward": "10875325562593479"
+      },
+      "0xd8f12bcde578c653014f27379a6114f67f0e445f": {
+        "name": "Renzo - ezETH - 26DEC 2024",
+        "reward": "15320015670979510"
+      }
+    },
+    "1726704000": {
+      "0x36d3ca43ae7939645c306e26603ce16e39a89192": {
+        "name": "",
+        "reward": "1156490667622599623"
+      },
+      "0x403829bce022844f66cdb2911d2260526d4eb843": {
+        "name": "Ethena - ENA - 31OCT 2024",
+        "reward": "67550393655379571"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "1966377434938483239"
+      },
+      "0x7d372819240d14fb477f17b964f95f33beb4c704": {
+        "name": "Ether.fi - eETH - 26DEC 2024",
+        "reward": "32908627779671224"
+      }
+    }
+  },
+  "totalRewards": "6785850448187368077",
+  "totalVoterRewards": "3971406102308926287",
+  "totalNativeRewards": "2814444345878441790"
+}

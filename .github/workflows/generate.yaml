@@ -1,0 +1,61 @@
+name: Sync Fork and Generate sdPendle Locker Monthly rewards repartition
+
+on:
+  schedule:
+    - cron: '0 12 * * 5' # Each friday at noon
+  workflow_dispatch:
+
+env:
+  GIT_ACCESS_TOKEN: ${{ secrets.GIT_ACCESS_TOKEN }}
+
+jobs:
+  sync_and_run_script:
+    runs-on: ubuntu-latest
+    steps:
+      # Steps to sync the fork
+      - name: Checkout the repository
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+
+      - name: Set up Git identity
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Stake DAO Automation"
+
+      - name: Add upstream remote
+        run: git remote add upstream https://github.com/pendle-finance/pendle-merkle-script.git
+
+      - name: Fetch changes from the parent repository
+        run: |
+          git fetch upstream
+          git checkout main
+          git merge upstream/main
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: main
+
+      # Steps to run the script after syncing
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20.5.1"
+
+      - name: Install node dependencies
+        run: yarn install
+
+      - name: Run sdPendle script
+        run: yarn hardhat run scripts/sdPendle.ts
+        shell: bash
+
+      - name: Commit and push changes to bribes repo
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "Stake DAO Automation"
+          git add .
+          git diff --staged --quiet || git commit -m "Generating sdPendle Locker Monthly rewards repartition"
+          git push origin main
+        shell: bash
+        if: ${{ success() }}

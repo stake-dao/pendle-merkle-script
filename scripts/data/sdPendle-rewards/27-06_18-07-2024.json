@@ -1,0 +1,111 @@
+{
+  "resultsByPeriod": {
+    "1719446400": {
+      "0x107a2e3cd2bb9a32b9ee2e4d51143149f8367eba": {
+        "name": "Ethena - sUSDe - 25JUL 2024",
+        "reward": "3482585899070401575"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "2343328771298845651"
+      },
+      "0x9c73879f795cefa1d5239de08d1b6aba2d2d1434": {
+        "name": "",
+        "reward": "317365539746166359"
+      },
+      "0xcaa8abb72a75c623bece1f4d5c218f425d47a0d0": {
+        "name": "Ether.Fi (Symbiotic) - weETHs - 29AUG 2024",
+        "reward": "588072151854559498"
+      },
+      "0xd1d7d99764f8a52aff007b7831cc02748b2013b5": {
+        "name": "Ethena - sUSDe - 26SEPT 2024",
+        "reward": "891163988011181004"
+      }
+    },
+    "1720051200": {
+      "0x107a2e3cd2bb9a32b9ee2e4d51143149f8367eba": {
+        "name": "Ethena - sUSDe - 25JUL 2024",
+        "reward": "1073660056616293751"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "1277109239849549399"
+      },
+      "0x6c269dfc142259c52773430b3c78503cc994a93e": {
+        "name": "Zircuit - eETH (Zircuit) - 22AUG 2024",
+        "reward": "32472671918417640"
+      },
+      "0x7d372819240d14fb477f17b964f95f33beb4c704": {
+        "name": "Ether.fi - eETH - 26DEC 2024",
+        "reward": "526855526583951482"
+      },
+      "0xc8edd52d0502aa8b4d5c77361d4b3d300e8fc81c": {
+        "name": "Ether.fi - eETH - 26SEPT 2024",
+        "reward": "237823860422301345"
+      },
+      "0xcdbd5ff3e03b6828db9c32e2131a60aba5137901": {
+        "name": "Renzo - ezETH - 26SEPT 2024",
+        "reward": "22129975323716482"
+      },
+      "0xee6bdfac6767efef0879b924fea12a3437d281a2": {
+        "name": "Zircuit - ezETH (Zircuit) - 22AUG 2024",
+        "reward": "25548447676006724"
+      },
+      "0x35f3db08a6e9cb4391348b0b404f493e7ae264c0": {
+        "name": "Renzo - ezETH - 26SEPT 2024",
+        "reward": "108877910810973895"
+      }
+    },
+    "1720656000": {
+      "0x107a2e3cd2bb9a32b9ee2e4d51143149f8367eba": {
+        "name": "Ethena - sUSDe - 25JUL 2024",
+        "reward": "276159677703144171"
+      },
+      "0x19588f29f9402bb508007feadd415c875ee3f19f": {
+        "name": "Ethena - USDe - 25JUL 2024",
+        "reward": "319256542789914170"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "837777944620726270"
+      },
+      "0xa54fc268101c8b97de19ef3141d34751a11996b2": {
+        "name": "Puffer - pufETH - 26SEPT 2024",
+        "reward": "116557490258356318"
+      },
+      "0xd1d7d99764f8a52aff007b7831cc02748b2013b5": {
+        "name": "Ethena - sUSDe - 26SEPT 2024",
+        "reward": "620929582684085212"
+      }
+    },
+    "1721260800": {
+      "0x18bafcabf2d5898956ae6ac31543d9657a604165": {
+        "name": "Karak - eETH (Karak) - 26SEPT 2024",
+        "reward": "41320373089588863"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "5833897929067554247"
+      },
+      "0xb1f587b354a4a363f5332e88effbbc2e4961250a": {
+        "name": "Karak - sUSDe (Karak) - 26SEPT 2024",
+        "reward": "17408820107924559"
+      },
+      "0xcdbd5ff3e03b6828db9c32e2131a60aba5137901": {
+        "name": "Renzo - ezETH - 26SEPT 2024",
+        "reward": "6358774225682029"
+      },
+      "0xd1d7d99764f8a52aff007b7831cc02748b2013b5": {
+        "name": "Ethena - sUSDe - 26SEPT 2024",
+        "reward": "1554952962540757783"
+      },
+      "0x35f3db08a6e9cb4391348b0b404f493e7ae264c0": {
+        "name": "Renzo - ezETH - 26SEPT 2024",
+        "reward": "238089176449192268"
+      }
+    }
+  },
+  "totalRewards": "20789703312719290695",
+  "totalVoterRewards": "10497589427882615128",
+  "totalNativeRewards": "10292113884836675567"
+}
