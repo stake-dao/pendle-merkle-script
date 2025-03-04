@@ -80,12 +80,14 @@ async function main() {
 
     const dates = Object.keys(resultsByPeriod).map(timestamp => new Date(parseInt(timestamp) * 1000).toISOString().split('T')[0]);
 
+    console.log(dates);
+
     const startDate = dates[0].split('-').reverse().join('-').substring(0, 5);
     const endDate = dates[dates.length - 1].split('-').reverse().join('-').substring(0, 5);
-    
-    const currentYear = format(new Date(), 'yyyy');
 
-    const fileName = `${startDate}_${endDate}-${currentYear}`.replace(/-/g, '-');
+    const endYear = dates[dates.length - 1].split('-')[0];
+
+    const fileName = `${startDate}_${endDate}-${endYear}`.replace(/-/g, '-');
 
     const dirPath = path.join(__dirname, `./data/sdPendle-rewards/${fileName}.json`);
     const dir = path.dirname(dirPath);
