@@ -1,0 +1,223 @@
+{
+  "resultsByPeriod": {
+    "1756339200": {
+      "0x2f8159644f045a388c1fc954e795202dc1d34308": {
+        "name": "",
+        "reward": "44497664"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "9171509464"
+      },
+      "0x6d98a2b6cdbf44939362a3e99793339ba2016af4": {
+        "name": "",
+        "reward": "2711300067"
+      },
+      "0x9bc2fb257e00468fe921635fe5a73271f385d0eb": {
+        "name": "",
+        "reward": "10205112"
+      },
+      "0xa36b60a14a1a5247912584768c6e53e1a269a9f7": {
+        "name": "",
+        "reward": "1078036007"
+      },
+      "0xf4c449d6a2d1840625211769779ada42857d04dd": {
+        "name": "",
+        "reward": "1462457590"
+      },
+      "0x61e4a41853550dc09dc296088ac83d770cd45c5a": {
+        "name": "",
+        "reward": "1855507938"
+      },
+      "0x8867d2b7adb8609c51810237ecc9a25a2f601b97": {
+        "name": "",
+        "reward": "4267141933"
+      }
+    },
+    "1756944000": {
+      "0x07b1711d4af74af661dde3b774741993b79fc59c": {
+        "name": "",
+        "reward": "955097449"
+      },
+      "0x45f163e583d34b8e276445dd3da9ae077d137d72": {
+        "name": "",
+        "reward": "878430791"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "8288924785"
+      },
+      "0x6d98a2b6cdbf44939362a3e99793339ba2016af4": {
+        "name": "",
+        "reward": "4038334291"
+      },
+      "0x71d4a6bac0fe7210309b6a3807cf2bad13d7c1e1": {
+        "name": "",
+        "reward": "75934226"
+      },
+      "0x9bc2fb257e00468fe921635fe5a73271f385d0eb": {
+        "name": "",
+        "reward": "20732593"
+      },
+      "0xa36b60a14a1a5247912584768c6e53e1a269a9f7": {
+        "name": "",
+        "reward": "1450736248"
+      },
+      "0xc65b7a0f8fc97e1d548860d866f4304e039ef016": {
+        "name": "",
+        "reward": "237236199"
+      },
+      "0xf4c449d6a2d1840625211769779ada42857d04dd": {
+        "name": "",
+        "reward": "2530487373"
+      },
+      "0x004f76045b42ef3e89814b12b37e69da19c8a212": {
+        "name": "",
+        "reward": "694849"
+      },
+      "0x02293d88656860a840ed457d38f51e3e6bee8461": {
+        "name": "",
+        "reward": "205468638"
+      },
+      "0x61e4a41853550dc09dc296088ac83d770cd45c5a": {
+        "name": "",
+        "reward": "2891424503"
+      },
+      "0x8867d2b7adb8609c51810237ecc9a25a2f601b97": {
+        "name": "",
+        "reward": "8070122238"
+      },
+      "0x97d985a71131afc02c320b636a268df34c6f42a4": {
+        "name": "",
+        "reward": "92086737"
+      }
+    },
+    "1757548800": {
+      "0x07b1711d4af74af661dde3b774741993b79fc59c": {
+        "name": "",
+        "reward": "466247422"
+      },
+      "0x2f8159644f045a388c1fc954e795202dc1d34308": {
+        "name": "",
+        "reward": "9863171"
+      },
+      "0x45f163e583d34b8e276445dd3da9ae077d137d72": {
+        "name": "",
+        "reward": "565089503"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "8128578298"
+      },
+      "0x7057c9e6f213bbb9b845fc57010034e9e4a69e8a": {
+        "name": "",
+        "reward": "144528799"
+      },
+      "0x9bc2fb257e00468fe921635fe5a73271f385d0eb": {
+        "name": "",
+        "reward": "23781883"
+      },
+      "0xa36b60a14a1a5247912584768c6e53e1a269a9f7": {
+        "name": "",
+        "reward": "1809463061"
+      },
+      "0xc65b7a0f8fc97e1d548860d866f4304e039ef016": {
+        "name": "",
+        "reward": "472192555"
+      },
+      "0xda57abf95a7c21eb9df08fbaada182f749f6c62f": {
+        "name": "",
+        "reward": "65712907"
+      },
+      "0xf4c449d6a2d1840625211769779ada42857d04dd": {
+        "name": "",
+        "reward": "2842519019"
+      },
+      "0x43023675c804a759cbf900da83dbcc97ee2afbe7": {
+        "name": "",
+        "reward": "2297644917"
+      },
+      "0x61e4a41853550dc09dc296088ac83d770cd45c5a": {
+        "name": "",
+        "reward": "470646544"
+      },
+      "0x8867d2b7adb8609c51810237ecc9a25a2f601b97": {
+        "name": "",
+        "reward": "5919592902"
+      }
+    },
+    "1758153600": {
+      "0x1821ec9c2d2c13f6b89d21301b93bd8d6667712b": {
+        "name": "",
+        "reward": "4908179"
+      },
+      "0x2f8159644f045a388c1fc954e795202dc1d34308": {
+        "name": "",
+        "reward": "16313314"
+      },
+      "0x307c15f808914df5a5dbe17e5608f84953ffa023": {
+        "name": "",
+        "reward": "1058113176"
+      },
+      "0x3f53eb4c57c7e7118be8566bcd503ea502639581": {
+        "name": "",
+        "reward": "609420306"
+      },
+      "0x45f163e583d34b8e276445dd3da9ae077d137d72": {
+        "name": "",
+        "reward": "3577981053"
+      },
+      "0x4eaa571eafcd96f51728756bd7f396459bb9b869": {
+        "name": "",
+        "reward": "179510742"
+      },
+      "0x4f30a9d41b80ecc5b94306ab4364951ae3170210": {
+        "name": "vePENDLE",
+        "reward": "15046899093"
+      },
+      "0x688b8eea04b9756da290c962bfba988b11fc66df": {
+        "name": "",
+        "reward": "37042613"
+      },
+      "0x79f06a8dc564717a9ad418049d0be9a60f2646c0": {
+        "name": "",
+        "reward": "1374369344"
+      },
+      "0x9bc2fb257e00468fe921635fe5a73271f385d0eb": {
+        "name": "",
+        "reward": "13767982"
+      },
+      "0xeb5819b31a0378407f43aba2f3e9d16b40aa5ec7": {
+        "name": "",
+        "reward": "980613044"
+      },
+      "0xf342d4bde4ec5b4bba94c17ab4c92ee3792abd5e": {
+        "name": "",
+        "reward": "89294911"
+      },
+      "0xf4c449d6a2d1840625211769779ada42857d04dd": {
+        "name": "",
+        "reward": "1484654849"
+      },
+      "0x43023675c804a759cbf900da83dbcc97ee2afbe7": {
+        "name": "",
+        "reward": "355749863"
+      },
+      "0x8e101c690390de722163d4dc3f76043bebbbcadd": {
+        "name": "",
+        "reward": "372973811"
+      },
+      "0x61e4a41853550dc09dc296088ac83d770cd45c5a": {
+        "name": "",
+        "reward": "1289945781"
+      },
+      "0x976fb34e06c933bdd97cb1e8b868e04442edaa8d": {
+        "name": "",
+        "reward": "103456026"
+      }
+    }
+  },
+  "totalRewards": "100147241763",
+  "totalVoterRewards": "59511330123",
+  "totalNativeRewards": "40635911640"
+}
