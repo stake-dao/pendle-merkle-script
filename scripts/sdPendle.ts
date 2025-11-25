@@ -2,7 +2,6 @@ import { BigNumber } from 'ethers';
 import { normalizeRawRC, queryAllPositions, RC } from './helper';
 import fs from 'fs';
 import path from 'path';
-import { format } from 'date-fns';
 import rawSwapDatas from './data/swap-result.json';
 import { getAllGaugesInfos } from './helper/gaugeInfos';
 
